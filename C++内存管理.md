@@ -26,4 +26,6 @@ C 中的内存布局： ![pic](pics/c-memory.png)
 - `malloc`返回的是`void`类型的指针，必须进行类型转换，而`new`和`delete`返回的是具体类型指针。
 
 ## 4.C/C++ struct内存对齐策略？
-参考：[C/C++内存对齐策略](http://harlon.org/2018/04/05/cpluscplusmemorypack/)
+参考：
+- [C/C++内存对齐策略](http://harlon.org/2018/04/05/cpluscplusmemorypack/)
+- [C/C++内存对齐详解](https://zhuanlan.zhihu.com/p/30007037)

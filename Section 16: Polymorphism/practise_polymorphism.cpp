@@ -50,13 +50,15 @@ int main(){
     cout<<"Hello, Rectangle!"<<endl;
     cout<<"The area of the rectangle: "<<p->area()<<endl;
     cout<<"The perimeter of the rectangle: "<<p->perimeter()<<endl;
+    delete p;
 
     // change pointer to a new derived circle
-    p = new Circle(3.0);
+    Shape *p = new Circle(3.0);
     cout<<endl;
     cout<<"Hello, Circle!"<<endl;
     cout<<"The area of the circle: "<<p->area()<<endl;
     cout<<"The perimeter of the circle: "<<p->perimeter()<<endl;
 
+    delete p;
     return 0;
 }
