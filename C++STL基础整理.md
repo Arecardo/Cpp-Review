@@ -14,8 +14,42 @@ STL内容虽然看起来很多，单独成书都不是问题（《STL源码剖�
 
     在第二阶段了解了STL的实现之后，我们已经可以很清楚地知道他们底层使用的是什么数据结构以及该数据结构做什么操作比较高效。但还有一点需要注意的就是怎么才能用对他们，避免一些未知的错误，比如迭代器失效问题。
 
-**string**
+- STL六大部件：
 
+    - 容器（Container）：[cppreference](https://zh.cppreference.com/w/cpp/container)
+    - 分配器（Allocators）
+    - 算法（Algorithms）
+    - 迭代器（Iterators）
+    - 适配器（Adapters）
+    - 仿函数（Functors）
+
+- 常用的容器
+
+    - 顺序容器 - 顺序容器实现能按顺序访问的数据结构。
+        - **array**：静态的连续数组
+        - **vector**：动态的连续数组
+        - **list**：双向链表
+        - **forward_list**：单链表
+        - **deque**：双端队列
+
+    - 容器适配器 - 容器适配器提供顺序容器的不同接口。
+        - **stack**：栈（LIFO 数据结构）
+        - **queue**：队列（FIFO 数据结构）
+        - **priority_queue**：默认最大堆
+
+    - 关联容器 - 关联容器实现能快速查找（ O(log n) 复杂度）的数据结构。
+        - **set**：唯一键的集合，按照键排序
+        - **map**：键值对的集合，按照键排序，键是唯一的
+        - multiset
+        - multimap
+
+    - 无序关联容器 - 无序关联容器提供能快速查找（均摊 O(1) ，最坏情况 O(n) 的复杂度）的无序（哈希）数据结构。
+        - **unordered_set**：唯一键的集合，按照键生成散列
+        - unordered_multiset
+        - **unordered_map**：键值对的集合，按照键生成散列，键是唯一的
+        - unordered_multimap
+
+**string**
 
 **vector**
 
