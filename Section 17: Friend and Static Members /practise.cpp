@@ -30,10 +30,17 @@ class Test2{
         }
 };
 
+int fun(){
+    cout<<"This is fun!"<<endl;
+    return 0;
+}
+
 int main(){
     cout<<"Hello~"<<endl;
     int t = getA();
     cout<< "friend function: "<<t<<endl;
+
+    fun();
 
     Test2 kk;
     kk.fun();

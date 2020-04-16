@@ -18,7 +18,7 @@ STL内容虽然看起来很多，单独成书都不是问题（《STL源码剖�
 
     - 容器（Container）：[cppreference](https://zh.cppreference.com/w/cpp/container)
     - 分配器（Allocators）
-    - 算法（Algorithms）
+    - 算法（Algorithms）：[cppreference](https://zh.cppreference.com/w/cpp/algorithm)
     - 迭代器（Iterators）
     - 适配器（Adapters）
     - 仿函数（Functors）
@@ -32,12 +32,12 @@ STL内容虽然看起来很多，单独成书都不是问题（《STL源码剖�
         - **forward_list**：单链表
         - **deque**：双端队列
 
-    - 容器适配器 - 容器适配器提供顺序容器的不同接口。
+    - 容器适配器 - 容器适配器提供顺序容器的不同接口。（底层一般用list或deque实现）
         - **stack**：栈（LIFO 数据结构）
         - **queue**：队列（FIFO 数据结构）
         - **priority_queue**：默认最大堆
 
-    - 关联容器 - 关联容器实现能快速查找（ O(log n) 复杂度）的数据结构。
+    - 关联容器 - 关联容器实现能快速查找（ O(log n) 复杂度）的数据结构。（底层数据结构为红黑树），有序
         - **set**：唯一键的集合，按照键排序
         - **map**：键值对的集合，按照键排序，键是唯一的
         - multiset

@@ -2,7 +2,10 @@
 
 ## 1.讲一下C++内存分布？
 
-参考： [Harlon's Blog: C/C++内存布局策略详解](http://harlon.org/2018/04/21/cpluscplusmemory/)
+参考： 
+- [Harlon's Blog: C/C++内存布局策略详解](http://harlon.org/2018/04/21/cpluscplusmemory/)
+
+- [Linux虚拟地址空间布局](https://www.cnblogs.com/clover-toeic/p/3754433.html)
 
 C 中的内存布局： ![pic](pics/c++memory_manage0.png)
 
@@ -109,3 +112,7 @@ C 中的内存布局： ![pic](pics/c++memory_manage0.png)
     ```
 
     ![pic4](pics/C++memory_manage3.jpg)
+
+5. Is it neccessary?
+
+    在网络编程中内存对齐是一个非常重要的策略，因为你希望尽可能地将发送数据压缩。
