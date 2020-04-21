@@ -4,6 +4,7 @@
 资料：
 - [面试知识点总结](http://harlon.org/2018/07/23/interview/#jump11)
 - [后台开发核心知识](https://github.com/linw7/Skill-Tree)
+- [笔试面试知识整理](https://hit-alibaba.github.io/interview/)
 - [Microsoft - C++ Language Reference](https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=vs-2019)
 - [Udemy - Learn C++ Programming -Beginner to Advance- Deep Dive in C++](https://www.udemy.com/course/cpp-deep-dive/)
 
@@ -29,12 +30,14 @@
 ## C++ 11 特性
 
 # Data Structure and Algorithm
-
-## 高级结构
-
+- 转载：[哈希表](https://hit-alibaba.github.io/interview/basic/algo/Hash-Table.html)
 - 转载：[红黑树原理详解及golang实现](https://www.cnblogs.com/ailumiyana/p/10963658.html)
 
 # Operating System
+
+- [操作系统-并发技术基础](操作系统-并发技术基础.md)
+- https://zhuanlan.zhihu.com/p/37872762
+
 # Linux System Programming
 # Linux Kernel
 # Network
