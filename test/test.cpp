@@ -10,7 +10,8 @@ int main(){
 
     // copy, top-level const is ignored
     int j = i;
-    const int* const p1 = &j;
+    int* const p1 = &j;
+    int* p2 = p1; // copy, top-level const is ignored
     j = 2;
     cout<<"The value of j is: "<<j<<endl;
 
