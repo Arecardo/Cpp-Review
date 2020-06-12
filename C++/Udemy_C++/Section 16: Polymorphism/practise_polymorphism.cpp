@@ -11,7 +11,7 @@ using namespace std;
 
 class Shape{
     public:
-        virtual float area()=0;
+        virtual float area()=0; // pure virtual
         virtual float perimeter()=0;
 };
 
